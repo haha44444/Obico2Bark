@@ -1,7 +1,7 @@
 ### [中文] | [[English]](./README_en.md)
 
 # Obico2Bark
-### 简介
+## 简介
 本项目是一个基于 Flask 的简易 Webhook 服务，用于接收打印机事件并通过 Bark API 转发至 iPhone。消息会根据事件类型自动添加 [INFO] 或 [WARN] 前缀。如果事件包含图片地址，服务器会将 LAN 地址替换为公网地址，方便外网访问。
 
 ## 前置要求
